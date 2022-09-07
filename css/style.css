@@ -1,0 +1,40 @@
+.page__body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFDF8;
+}
+
+/* ХЕДЕР */
+.main-header {
+    width: 100%;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #F5D581;
+}
+
+.main-header__wrapper {
+    width: 1100px;
+    min-height: 75px;
+    margin: 0 auto;
+}
+
+
+
+/* МЕЙН */
+.main-container {
+    width: 100%;
+    flex-grow: 1;
+}
+
+
+
+
+
+/* ФУТЕР */
+.main-footer {
+    width: 100%;
+    flex-shrink: 0;
+}
+
+
+
