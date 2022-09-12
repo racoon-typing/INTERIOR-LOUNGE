@@ -5,6 +5,8 @@
     line-height: 150%;
     color: #000000;
     min-height: 100vh;
+    margin: 0;
+    padding: 0;
     display: flex;
     flex-direction: column;
     background-color: #FFFDF8;
@@ -52,11 +54,34 @@
 }
 
 .main-header__list {
+    width: 280px;
     display: flex;
     justify-content: space-between;
     margin: 0;
     padding: 0;
     list-style-type: none;
+}
+
+.main-header__list-item {
+    box-sizing: border-box;
+}
+
+.main-header__list-item--arrow {
+    position: relative;
+    padding-right: 17px;
+}
+
+.main-header__list-item--arrow::before {
+    position: absolute;
+    content: '';
+    width: 13px;
+    height: 9px;
+    background-image: url("../img/arrow-down.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 11px;
+    right: 0;
+    z-index: 1;
 }
 
 .main-header__button {
