@@ -381,3 +381,39 @@
     margin: 0;
     list-style-type: none;
 }
+
+.main-footer__comment-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 32px;
+}
+
+.main-footer__comment-item:last-child {
+    margin-bottom: 0;
+}
+
+.main-footer__comment-item-img {
+    border-radius: 50%;
+    margin-right: 24px;
+}
+
+.main-footer__comment-item-wrapper-text {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-footer__comment-item-surname {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.main-footer__comment-item-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    margin: 0;
+}
