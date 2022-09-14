@@ -206,8 +206,8 @@
 
 .wysiwyg-wrapper img {
     display: block;
-    width: 100%;
     margin-bottom: 56px;
+    object-fit: cover;
 }
 
 .wysiwyg-wrapper ol,
