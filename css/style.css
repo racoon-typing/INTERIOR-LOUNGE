@@ -132,7 +132,6 @@
     color: #9F7303;
 }
 
-
 .main-header__button {
     box-sizing: border-box;
     margin-left: 40px;
@@ -140,7 +139,6 @@
     border: 1px solid #9F7303;
     border-radius: 8px;
 }
-
 
 
 /* МЕЙН */
@@ -153,7 +151,7 @@
     width: 1100px;
     margin: 0 auto;
     padding-top: 72px;
-    padding-bottom: 115px;
+    padding-bottom: 75px;
 }
 
 
@@ -227,6 +225,15 @@
     transform: rotate(45deg);
 }
 
+.wp-block-separator {
+    width: 920px;
+    height: 1px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #F5D581;
+}
+
 /* Список */
 /* .main-container__list {
     margin: 0;
@@ -256,25 +263,7 @@
     transform: rotate(45deg);
 } */
 
-.main-container__img-wrapper {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    margin-bottom: 88px;
-}
-
-.main-container__img {
-    display: block;
-    width: 540px;
-}
-
-.main-container__sub-title--little {
-    font-size: 32px;
-    line-height: 39px;
-    margin-bottom: 34px;
-}
-
-.main-container__text-wrapper {
+/* .main-container__text-wrapper {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -284,7 +273,7 @@
 .main-container__text-column {
     margin: 0;
     width: 540px;
-}
+} */
 
 .main-container__quote-wrapper {
     width: 100%;
