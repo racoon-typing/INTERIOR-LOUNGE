@@ -191,10 +191,17 @@
 }
 
 .wysiwyg-wrapper blockquote {
+    width: 70%;
     font-style: italic;
+    text-align: center;
     font-weight: 300;
     font-size: 24px;
     line-height: 150%;
+    margin: 60px auto;
+    padding: 40px 100px;
+    color: #9F7303;
+    border-top: 1px solid #F5D581;
+    border-bottom: 1px solid #F5D581;
 }
 
 .wysiwyg-wrapper img {
@@ -232,14 +239,14 @@
     transform: rotate(45deg);
 }
 
-.wp-block-separator {
+/* .wp-block-separator {
     width: 920px;
     height: 1px;
     margin: 0 auto;
     margin-top: 40px;
     margin-bottom: 40px;
     background-color: #F5D581;
-}
+} */
 
 /* Список */
 /* .main-container__list {
