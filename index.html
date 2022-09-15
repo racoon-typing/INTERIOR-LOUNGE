@@ -94,7 +94,8 @@
                     Кейс клубного дома Tomazzi Hall
                 </h2>
 
-                <img class="content-img--full" width="1100" height="400" style="background-image: url(img/image-1.png);">
+                <img class="content-img--full" width="1100" height="400"
+                    style="background-image: url(img/image-1.png);">
 
                 <p>
                     Создать объект, подобного которому в Санкт-Петербурге еще не было, — такую задачу поставил перед
@@ -196,23 +197,30 @@
             </h2>
 
             <!-- Форма  -->
-            <div class="custom-form">
-                <div class="custom-form__wrapper">
-                    <form class="custom-form__form form">
-                        <div class="form__row">
-                            <textarea class="form__textarea" placeholder="Расскажите, что вы думаете о проекте"></textarea>
-                        </div>
-        
-                        <div class="form__row">
-                            <input class="form__input" type="text" name="name" placeholder="Ваше имя">
-                        </div>
-        
-                        <div class="form__button-wrapper">
-                            <button class="form__button">Отправить</button>
-        
-                            <p class="form__button-text">
-                                Отзыв будет добавлен после проверки модератором
-                            </p>
+            <div class="order-form">
+                <div class="wpcf7">
+                    <form class="wpcf7-form">
+                        <div class="order-form__column-wrapper">
+                            <div class="order-form__column-item">
+                                <div class="cf7md-item">
+                                    <textarea class="form__textarea" placeholder="Расскажите, что вы думаете о проекте"></textarea>
+                                </div>
+                            </div>
+    
+                            <div class="order-form__column-item">
+                                <div class="cf7md-item">
+                                    <input class="wpcf7-text" type="text" name="name" placeholder="Ваше имя">
+                                </div>
+                            </div>
+    
+                            <div class="order-form__submit-wrapper">
+                                <button class="wpcf7-submit">Отправить</button>
+
+                                <p class="order-form__text">
+                                    Отзыв будет добавлен после проверки модератором
+                                </p>
+    
+                            </div>
                         </div>
                     </form>
                 </div>
