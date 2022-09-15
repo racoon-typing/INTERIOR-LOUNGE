@@ -198,29 +198,32 @@
 
             <!-- Форма  -->
             <div class="order-form">
-                <div class="wpcf7">
-                    <form class="wpcf7-form">
-                        <div class="order-form__column-wrapper">
-                            <div class="order-form__column-item">
-                                <div class="cf7md-item">
-                                    <textarea class="form__textarea" placeholder="Расскажите, что вы думаете о проекте"></textarea>
-                                </div>
-                            </div>
-    
-                            <div class="order-form__column-item">
-                                <div class="cf7md-item">
-                                    <input class="wpcf7-text" type="text" name="name" placeholder="Ваше имя">
-                                </div>
-                            </div>
-    
-                            <div class="order-form__submit-wrapper">
-                                <button class="wpcf7-submit">Отправить</button>
+                <!-- Отсюда код будет удален и заменен на код вставки плагина -->
+                <div class="wpcf7"> <!-- обертка с классом, которую создаcт плагин -->
+                    <form class="wpcf7-form"> <!-- тег формы с классом, которую создаcт плагин -->
+                        <p>
+                            <span class="wpcf7-form-control-wrap">
+                                <textarea class="wpcf7-textarea" cols="40" rows="10"
+                                    placeholder="Расскажите, что вы думаете о проекте"></textarea>
+                            </span>
+                        </p>
 
-                                <p class="order-form__text">
-                                    Отзыв будет добавлен после проверки модератором
-                                </p>
+                        <p>
+                            <span class="wpcf7-form-control-wrap">
+                                <input type="text" size="40" class="wpcf7-text" placeholder="Ваше имя">
+                            </span>
+                        </p>
+
+                        <div class="order-submit-area"> <!-- обертка для создания колонок -->
+                            <p>
+                                <input type="submit" value="Отправить" class="wpcf7-submit">
+                                <span class="ajax-loader"></span>
+                            </p>
+                            <div class="order-text"> <!-- div лучше параграфа или span, так как к div CF7 не добавляет оберток -->
+                                Отзыв будет добавлен после проверки модератором
                             </div>
                         </div>
+                        <!-- Досюда код будет удален и заменен на код вставки плагина -->               
                     </form>
                 </div>
             </div>

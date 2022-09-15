@@ -366,16 +366,16 @@
     border-bottom: 1px solid #F5D581;
 }
 
-.order-form__column-item {
+/* .order-form__column-item {
     width: 100%;
 }
 
 .order-form__submit-wrapper {
     display: flex;
     width: 100%; 
-}
+} */
 
-.form__textarea {
+.wpcf7-textarea {
     width: 100%;
     box-sizing: border-box;
     height: 160px;
@@ -386,7 +386,7 @@
     margin-bottom: 24px;
 }
 
-.form__textarea::placeholder {
+.wpcf7-textarea::placeholder {
     font-weight: 400;
     font-size: 18px;
     line-height: 150%;
@@ -426,7 +426,7 @@
     margin-right: 16px;
 }
 
-.order-form__text {
+.order-text {
     display: block;
     width: 190px;
     font-weight: 400;
