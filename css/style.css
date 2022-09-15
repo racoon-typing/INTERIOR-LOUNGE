@@ -358,14 +358,21 @@
     margin-bottom: 32px;
 }
 
-.content-form {
+/* ФОРМА */
+.custom-form__form {
     display: flex;
     flex-direction: column;
     padding-bottom: 56px;
     border-bottom: 1px solid #F5D581;
 }
 
-.content-form__textarea {
+.form__row {
+    width: 100%;
+}
+
+.form__textarea {
+    width: 100%;
+    box-sizing: border-box;
     height: 160px;
     background: #FFFFFF;
     border: 1px solid #F5D581;
@@ -374,7 +381,7 @@
     margin-bottom: 24px;
 }
 
-.content-form__textarea::placeholder {
+.form__textarea::placeholder {
     font-weight: 400;
     font-size: 18px;
     line-height: 150%;
@@ -382,7 +389,7 @@
     opacity: 0.3;
 }
 
-.content-form__input {
+.form__input {
     width: 540px;
     height: 64px;
     box-sizing: border-box;
@@ -393,18 +400,18 @@
     margin-bottom: 24px;
 }
 
-.content-form__input::placeholder {
+.form__input::placeholder {
     font-weight: 400;
     font-size: 18px;
     line-height: 150%;
     opacity: 0.3;
 }
 
-.content-form__input-wrapper {
+.form__button-wrapper {
     display: flex;
 }
 
-.content-form__button {
+.form__button {
     width: 285px;
     height: 64px;
     background: #9F7303;
@@ -418,7 +425,7 @@
     margin-right: 16px;
 }
 
-.content-form__text {
+.form__button-text {
     display: block;
     width: 190px;
     font-weight: 400;
@@ -428,6 +435,8 @@
     opacity: 0.7;
 }
 
+
+/* ФУТЕР */
 .main-footer__comment-wrapper {
     padding-top: 56px;
 }
