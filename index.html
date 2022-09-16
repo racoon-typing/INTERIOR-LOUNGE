@@ -56,7 +56,33 @@
             </div>
 
             <div class="main-header__link-wrapper">
-                <ul class="main-header__list">
+
+                <nav class="menu-primary-container">
+                    <ul class="menu">
+                        <li class="menu-item menu-item-has-children">
+                            <a href="#">Наши проекты</a>
+
+                            <ul class="sub-menu">
+                                <li class="menu-item">
+                                    <a href="#">Tomazzi Hall</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#">Lounge Hall</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#">Astra Hall</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="menu-item">
+                            <a href="#">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+
+
+                <!-- <ul class="main-header__list">
                     <li class="main-header__list-item main-header__list-item--arrow">
                         <a class="main-header__link main-header__link--arrow">Наши проекты</a>
                         <div class="main-header__list-item--dropdown-content">
@@ -76,7 +102,7 @@
                     <li class="main-header__list-item">
                         <a class="main-header__link">Контакты</a>
                     </li>
-                </ul>
+                </ul> -->
 
                 <a class="main-header__button">Оставить отзыв</a>
             </div>
@@ -199,8 +225,10 @@
             <!-- Форма  -->
             <div class="order-form">
                 <!-- Отсюда код будет удален и заменен на код вставки плагина -->
-                <div class="wpcf7"> <!-- обертка с классом, которую создаcт плагин -->
-                    <form class="wpcf7-form"> <!-- тег формы с классом, которую создаcт плагин -->
+                <div class="wpcf7">
+                    <!-- обертка с классом, которую создаcт плагин -->
+                    <form class="wpcf7-form">
+                        <!-- тег формы с классом, которую создаcт плагин -->
                         <p>
                             <span class="wpcf7-form-control-wrap">
                                 <textarea class="wpcf7-textarea" cols="40" rows="10"
@@ -214,16 +242,18 @@
                             </span>
                         </p>
 
-                        <div class="order-submit-area"> <!-- обертка для создания колонок -->
+                        <div class="order-submit-area">
+                            <!-- обертка для создания колонок -->
                             <p>
                                 <input type="submit" value="Отправить" class="wpcf7-submit">
                                 <span class="ajax-loader"></span>
                             </p>
-                            <div class="order-text"> <!-- div лучше параграфа или span, так как к div CF7 не добавляет оберток -->
+                            <div class="order-text">
+                                <!-- div лучше параграфа или span, так как к div CF7 не добавляет оберток -->
                                 Отзыв будет добавлен после проверки модератором
                             </div>
                         </div>
-                        <!-- Досюда код будет удален и заменен на код вставки плагина -->               
+                        <!-- Досюда код будет удален и заменен на код вставки плагина -->
                     </form>
                 </div>
             </div>
