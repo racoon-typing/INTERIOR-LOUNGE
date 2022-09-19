@@ -59,7 +59,7 @@
     align-items: center;
 }
 
-.menu {
+.menu-primary-container .menu {
     width: 280px;
     display: flex;
     justify-content: space-between;
@@ -68,7 +68,7 @@
     list-style-type: none;
 }
 
-.menu a {
+.menu-primary-container .menu a {
     font-family: 'Montserrat';
     font-style: normal;
     font-size: 18px;
@@ -78,22 +78,22 @@
     cursor: pointer;
 }
 
-.menu-item {
+.menu-primary-container .menu-item {
     display: flex;
     align-items: center;
     box-sizing: border-box;
 }
 
-.menu-item-has-children {
+.menu-primary-container .menu-item-has-children {
     position: relative;
     padding-right: 17px;
 }
 
-.menu-item-has-children:hover .sub-menu {
+.menu-primary-container .menu-item-has-children:hover .sub-menu {
     display: block;
 }
 
-.menu-item-has-children::before {
+.menu-primary-container .menu-item-has-children::before {
     position: absolute;
     content: '';
     width: 13px;
@@ -106,7 +106,7 @@
     z-index: 1;
 }
 
-.sub-menu {
+.menu-primary-container .sub-menu {
     position: absolute;
     display: none;
     width: 200px;
@@ -121,15 +121,15 @@
     list-style-type: none;
 }
 
-.sub-menu .menu-item {
+.menu-primary-container .sub-menu .menu-item {
     margin-bottom: 23px;
 }
 
-.sub-menu .menu-item:last-child {
+.menu-primary-container .sub-menu .menu-item:last-child {
     margin-bottom: 0;
 }
 
-.sub-menu a:hover {
+.menu-primary-container .sub-menu a:hover {
     color: #9F7303;
 }
 
