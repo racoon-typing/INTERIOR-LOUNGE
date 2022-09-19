@@ -60,7 +60,7 @@
 }
 
 .menu-primary-container .menu {
-    width: 280px;
+    width: 516px;
     display: flex;
     justify-content: space-between;
     margin: 0;
@@ -82,6 +82,13 @@
     display: flex;
     align-items: center;
     box-sizing: border-box;
+}
+
+.menu-primary-container .menu-item-styled {
+    box-sizing: border-box;
+    padding: 6px 22px;
+    border: 1px solid #9F7303;
+    border-radius: 8px;
 }
 
 .menu-primary-container .menu-item-has-children {
@@ -131,14 +138,6 @@
 
 .menu-primary-container .sub-menu a:hover {
     color: #9F7303;
-}
-
-.main-header__button {
-    box-sizing: border-box;
-    margin-left: 40px;
-    padding: 6px 22px;
-    border: 1px solid #9F7303;
-    border-radius: 8px;
 }
 
 
